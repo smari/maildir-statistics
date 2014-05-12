@@ -1,0 +1,28 @@
+Scripts to Count Messages from Google
+==============================================================
+
+Author: Benjamin Mako Hill (mako@atdot.cc)
+License: GNU General Public License version 3 or any later version
+Home: http://projects.mako.cc/
+
+1. Parse your mailbox using the count_gmail.py script
+--------------------------------------------------------------
+
+I ran the script like this:
+
+$ python count_gmail.py ~/incoming/mail/default > mail_metadata.tsv
+
+2. Parse the output using analysis.R
+--------------------------------------------------------------
+
+I run R interactively in Emacs/ESS but you might want to use RStudio
+if you are not familiar with Emacs. Alternatively, if you also output
+into mail_metadata.tsv, you can just run:
+
+$ R --no-save < analysis.R
+
+It will create the two PDFs files of graphs for you in the local directory.
+
+The I converted the PDFs into PNGs with imagemagick's mogrify:
+
+$ mogrify -format png *pdf
