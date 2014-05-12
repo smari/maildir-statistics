@@ -78,7 +78,7 @@ dev.off()
 #######################################################
 
 prop.data <- rbind(cbind(google.by.week(d), subset="All Email"),
-                   cbind(google.by.week(d[d$replied]), subset="Emails with Replies"))
+                   cbind(google.by.week(d[d$replied]), subset="Email with Replies"))
 
 
 pdf(file="emails_gmail_prop_over_time.pdf", width=10, height=8)
