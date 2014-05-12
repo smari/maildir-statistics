@@ -5,6 +5,11 @@ Author: Benjamin Mako Hill (mako@atdot.cc)
 License: GNU General Public License version 3 or any later version
 Home: http://projects.mako.cc/
 
+I wrote this code in order to do the analysis I posted in this blog
+post:
+
+http://mako.cc/copyrighteous/google-has-most-of-my-email-because-it-has-all-of-yours
+
 1. Parse your mailbox using the count_gmail.py script
 --------------------------------------------------------------
 
