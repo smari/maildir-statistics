@@ -4,7 +4,7 @@ library(reshape)
 
 theme_set(theme_bw())
 
-d = read.delim("mail_metadata.tsv", header=FALSE,
+d <- read.delim("mail_metadata.tsv", header=FALSE,
     col.names=c("flags", "timestamp", "precedence", "google"))
 
 d$timestamp <- as.POSIXct(d$timestamp, tz="UTC",
