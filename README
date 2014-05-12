@@ -25,9 +25,27 @@ $ python count_gmail.py ~/incoming/mail/default > mail_metadata.tsv
 2. Parse the output using analysis.R
 --------------------------------------------------------------
 
-I run R interactively in Emacs/ESS but you might want to use RStudio
-if you are not familiar with Emacs. Alternatively, if you also output
-into mail_metadata.tsv, you can just run:
+If have not used R, you will to install R and three libraries I use in
+the script. 
+
+First, install R. In Debian and Ubuntu, the package is r-base. 
+
+You will then need to install three R libraries. The easiest way to do
+that is from within R. To start R, just invoke it from your shell:
+
+$ R
+
+Once R is running, you can install the packages by running these three
+commands from within the R interactive shell:
+
+> install.packages("data.table")
+> install.packages("ggplot2")
+> install.packages("reshape")
+
+Once youv'e done that, you can run the scripts.  I run R interactively
+in Emacs/ESS but you might want to use RStudio if you are not familiar
+with Emacs. Alternatively, if you also output into mail_metadata.tsv,
+you can just run:
 
 $ R --no-save < analysis.R
 
