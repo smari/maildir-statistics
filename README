@@ -3,12 +3,17 @@ Scripts to Count Messages from Google
 
 Author: Benjamin Mako Hill (mako@atdot.cc)
 License: GNU General Public License version 3 or any later version
-Home: http://projects.mako.cc/
+Code: http://projects.mako.cc/source/?p=gmail-maildir-counter
 
 I wrote this code in order to do the analysis I posted in this blog
 post:
 
 http://mako.cc/copyrighteous/google-has-most-of-my-email-because-it-has-all-of-yours
+
+If you want to send me patches or bugfixes, details on how to do that
+are here:
+
+http://projects.mako.cc/source/
 
 1. Parse your mailbox using the count_gmail.py script
 --------------------------------------------------------------
