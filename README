@@ -1,9 +1,15 @@
-Scripts to Count Messages from Google
-==============================================================
+# Scripts to Count Messages from Large Mail Providers
 
-Author: Benjamin Mako Hill (mako@atdot.cc)
+Author: Benjamin Mako Hill (mako@atdot.cc), Smári McCarthy <smari@mailpile.is>
 License: GNU General Public License version 3 or any later version
-Code: http://projects.mako.cc/source/?p=gmail-maildir-counter
+Original code by Mako: http://projects.mako.cc/source/?p=gmail-maildir-counter
+
+## Usage
+
+Use count_big.py instead of count_gmail.py. Otherwise the same as below.
+
+
+## Original readme:
 
 I wrote this code in order to do the analysis I posted in this blog
 post:
